@@ -1,5 +1,5 @@
 # riot-hub
-A wrapper around Riot Observable that utilizes module caching for components to share messages and state
+A wrapper around [Riot.js' Observable API](http://riotjs.com/api/observable/) that utilizes module caching for components to share messages and state.
 
 ### use case
 
@@ -24,7 +24,6 @@ const hub = require('riot-hub')();
 // Transmit an event
 let data = {name: 'new message received', time: Date.now(), metadata: {message: 'Hi Paul'} };
 hub.trigger('eventOccurring', data);
-
 
 // And another file prints out the contents of those messages to a debugging panel
 //
