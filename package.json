@@ -1,0 +1,25 @@
+{
+  "name": "riot-hub",
+  "version": "1.0.0",
+  "description": "A wrapper around Riot Observable that utilises module caching for components to share messages and state",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anephenix/riot-hub.git"
+  },
+  "keywords": [
+    "riot.js"
+  ],
+  "author": "Paul Jensen <paul@anephenix.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anephenix/riot-hub/issues"
+  },
+  "homepage": "https://github.com/anephenix/riot-hub#readme",
+  "dependencies": {
+    "riot": "^2.3.16"
+  }
+}
