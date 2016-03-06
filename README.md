@@ -3,7 +3,7 @@ A wrapper around [Riot.js' Observable API](http://riotjs.com/api/observable/) th
 
 ### use case
 
-This is a small module that wraps around Riot.js' Observable API to allow you to create a single event emitter instance upon which you can attach event listeners and emit events to them.
+This is a small module that wraps around [Riot.js' Observable API](http://riotjs.com/api/observable/) to allow you to create a single event emitter instance upon which you can attach event listeners and emit events to them.
 
 The reason for using this is that it allows you to neatly decouple your Riot.js components so that they don't reference one another, but simply listen for events on the hub, and trigger events to the hub. This makes it easier to add and remove Riot.js components to your application.
 
