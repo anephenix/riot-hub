@@ -11,7 +11,6 @@ function Hub () {
   riot.observable(this);
 }
 
-
 function load () {
   if (hub) return hub;
   hub = new Hub();
@@ -19,4 +18,3 @@ function load () {
 }
 
 module.exports = load;
-
