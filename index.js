@@ -1,3 +1,5 @@
+'use strict';
+
 let hub;
 
 // This is an event emitter, used to handle communicating events
