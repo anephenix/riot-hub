@@ -1,11 +1,11 @@
 'use strict';
 
-let hub;
+var hub;
 
 // This is an event emitter, used to handle communicating events
 // between different parts of the application.
 
-const riot = require('riot');
+var riot = require('riot');
 
 function Hub () {
   riot.observable(this);
