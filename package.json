@@ -1,6 +1,6 @@
 {
   "name": "riot-hub",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A wrapper around Riot Observable that utilises module caching for components to share messages and state",
   "main": "index.js",
   "scripts": {
